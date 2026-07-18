@@ -1,41 +1,127 @@
-
 <!DOCTYPE html>
-<html lang="so">
+<html lang="ar" dir="rtl">
 <head>
     <meta charset="UTF-8">
-    <title> DahabPlus </title>
-    <link rel="icon" type="image/png" href="image_bf599829.png">
-
-    <!-- إعدادات المعاينة لمنصات التواصل والواتساب (Meta Tags) -->
-    <meta property="og:title" content="Abaalmarimo lacageed oo dhan $50,000 oo laga helayo DahabPlus! 💰✨">
-    <meta property="og:description" content="Abaalmarimo lacageed oo dhan $50,000 oo laga helayo DahabPlus! 💰✨">
-    <meta property="og:type" content="website">
-    <meta property="og:url" content="https://comqasdl.github.io/ideal-chainsaw/">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DahabPlus</title>
     
-    <!-- روابط الصورة المباشرة بالمقاس المربع الجديد -->
-    <meta property="og:image" content="https://comqasdl.github.io/ideal-chainsaw/image_bf599829.png">
-    <meta property="og:image:secure_url" content="https://comqasdl.github.io/ideal-chainsaw/image_bf599829.png">
-    <!-- تم تصحيح نوع الصورة هنا ليتطابق مع الامتداد png -->
-    <meta property="og:image:type" content="image/png">
-    <meta property="og:image:width" content="1200">
-    <meta property="og:image:height" content="1200">
+    
+    
+    
+    <style>
+        /* إعدادات عامة وتصفير الهوامش */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
 
-    <!-- إعدادات تويتر والمنصات الأخرى -->
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Abaalmarimo lacageed oo dhan $50,000 oo laga helayo DahabPlus! 💰✨">
-    <meta name="twitter:description" content="DahabPlus">
-    <meta name="twitter:image" content="https://comqasdl.github.io/ideal-chainsaw/image_bf599829.png">
+        /* حاوية الموقع بالكامل */
+        body {
+            font-family: Arial, sans-serif;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            background-color: #f5f5f5; /* لون خلفية محايد للموقع */
+        }
 
-    <!-- كود إعادة التوجيه الصحيح إلى لوحتك الفعالة بعد 3 ثوانٍ -->
-    <script>
-        setTimeout(function() {
-            window.location.href = "https://kesug.com";
-        }, 3000);
-    </script>
+        /* رأس الموقع - منفصل تماماً وله خلفية خاصة */
+        header {
+            width: 100%;
+            background-color: #ffffff; /* خلفية بيضاء صافية للرأس */
+            padding: 15px 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+            z-index: 10;
+        }
+
+        /* تنسيق الصورة داخل الرأس */
+        .header-image {
+            max-width: 90%;
+            height: auto;
+            max-height: 120px;
+            display: block;
+        }
+
+        /* محتوى بطن الموقع */
+        .main-content {
+            flex: 1;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 40px 20px;
+        }
+
+        /* حاوية عمودية لترتيب الأزرار والصورة خارج بعضها تماماً */
+        .content-wrapper {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 25px; /* المسافة الثابتة والواضحة بين كل عنصر والآخر */
+        }
+
+        /* تنسيق صورة بطن الموقع - تظهر بحجمها الأصلي تماماً دون لعب بالمقاسات */
+        .body-image {
+            display: block;
+            max-width: 100%; /* تضمن عدم خروج الصورة عن الشاشة في الموبايل */
+            height: auto; /* تحافظ على أبعادها الأصلية النظيفة */
+        }
+
+        /* تصميم الزر الشفاف بالإطار الأخضر (تم تحديثه ليتناسب مع الروابط) */
+        .custom-btn {
+            background-color: transparent; /* شفاف تماماً */
+            color: #2ecc71; /* لون النص أخضر */
+            border: 3px solid #2ecc71; /* إطار محيط أخضر */
+            padding: 12px 40px;
+            font-size: 1.2rem;
+            font-weight: bold;
+            cursor: pointer;
+            border-radius: 30px;
+            transition: all 0.3s ease;
+            text-decoration: none; /* إزالة الخط الافتراضي أسفل الروابط */
+            display: inline-block;
+            text-align: center;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+        }
+
+        /* تأثير عند تمرير الماوس فوق الزر */
+        .custom-btn:hover {
+            background-color: #2ecc71;
+            color: white;
+            box-shadow: 0 0 20px rgba(46, 204, 113, 0.6);
+            transform: scale(1.05);
+        }
+    </style>
 </head>
 <body>
-    <div style="text-align: center; margin-top: 50px; font-family: Arial, sans-serif;">
-        <p dir="ltr" style="font-size: 20px; color: #333;">Si nabad ah ayaa lagugu wareejinayaa... fadlan sug</p>
-    </div>
+
+    <!-- رأس الموقع (صورة منفصلة في المنتصف) -->
+    <header>
+        <img src="download.png" alt="شعار الموقع" class="header-image">
+    </header>
+
+    <!-- بطن الموقع -->
+    <main class="main-content">
+        
+        <!-- الترتيب يضمن وجود الأزرار في الخارج بشكل كامل مع مساراتها -->
+        <div class="content-wrapper">
+            
+            <!-- الزر الأول: خارج الصورة من فوق مع المسار الخاص به -->
+            <!-- استبدل # برابط الصفحة المطلوبة (مثال: https://google.com) -->
+            <a href="page2.html" class="custom-btn"> Ka qaybgal hadda </a>
+            
+            <!-- صورة بطن الموقع الأصلية كعنصر مستقل تماماً -->
+            <img src="image_bf599829.png" alt="صورة بطن الموقع" class="body-image">
+            
+            <!-- الزر الثاني: خارج الصورة من تحت مع المسار الخاص به -->
+            <!-- استبدل # برابط الصفحة المطلوبة (مثال: page2.html) -->
+            <a href="page2.html" class="custom-btn"> Ka qaybgal hadda </a>
+            
+        </div>
+
+    </main>
+
 </body>
 </html>
